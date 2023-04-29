@@ -3,16 +3,16 @@ import { AiOutlineMenu ,AiOutlineRight} from "react-icons/ai";
 const Categorylist = ({categories}) => {
   return (
     <div className="w-full h-full">
-      <div className="bg-orange-700 gap-2 flex p-1">
+      <div className="items-center  bg-orange-800 gap-4 flex p-3 px-5">
         <AiOutlineMenu size={30} color="white" />
         <h2 className="text-white">Browse Categories</h2>
       </div>
-      <div className="flex flex-col ">
+      <div className="flex flex-col bg-slate-100 ">
         {categories.map((item, i) => {
           return (
-            <div key={i} className="flex items-center justify-between w-full p-1">
-              <h1>{item}</h1>
-              <AiOutlineRight />
+            <div key={i} className="flex items-center justify-between w-full p-2 px-5 cursor-pointer  text-slate-600 hover:text-black hover:bg-slate-200">
+              <h1 className=" ">{item}</h1>
+              <AiOutlineRight className="" />
             </div>
           );
         })}

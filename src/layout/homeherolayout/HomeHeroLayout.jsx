@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Categorylist from "./components/Categorylist";
 import Navbar from "./components/Navbar";
 
-const HomeHero = ({ children }) => {
+const HomeHeroLayout = ({ children }) => {
   const [categories, setCategories] = useState([
     "Clothing & Accessories",
     "Shoes",
@@ -26,12 +26,12 @@ const HomeHero = ({ children }) => {
   ]);
   return (
     <div className="w-full ">
-      <div className="w-full flex h-min ">
+      <div className="w-full flex h-min gap-4">
         <div className="flex  w-1/4 ">
           <Categorylist categories={categories} />
         </div>
 
-        <div className="flex  w-3/4 ">
+        <div className="flex flex-col w-3/4 ">
           <Navbar Pages={Pages} />
 
           {children}
@@ -41,4 +41,4 @@ const HomeHero = ({ children }) => {
   );
 };
 
-export default HomeHero;
+export default HomeHeroLayout;
