@@ -16,11 +16,11 @@ const HeroTwo = () => {
               <p className="text-orange-400 w-min px-2">test</p>
             </div>
             <h2 className="text-2xl font-bold">
-              Xbox Elitw Wireless Controller Series 2
+            Xbox Elite
             </h2>
             <div className="flex items-center gap-5">
-              <p className="text-orange-400 font-bold">$100</p>
-              <p className="line-through font-bold">$100</p>
+            <p className="text-orange-400 font-bold">$1000</p>
+                  <p className="line-through font-bold">$1200</p>
             </div>
             <p>
               lorem ipsum dolor sit amet consectetur adipisicing elit sed do
@@ -41,14 +41,14 @@ const HeroTwo = () => {
             <div className="w-1/2 h-[187px] flex flex-col justify-around">
               <div className="flex flex-col">
                 <h2 className="text-base font-bold pl-5">
-                  Mi Smart Compact Projector
+                Xbox Elite Wireless Controller Series 2
                 </h2>
               </div>
               <div className="flex flex-col pl-5">
                 <p className="text-gray-500">Weekend Discount</p>
                 <div className="flex items-center gap-5">
-                  <p className="text-orange-400 font-bold">$100</p>
-                  <p className="line-through font-bold">$100</p>
+                  <p className="text-orange-400 font-bold">$800</p>
+                  <p className="line-through font-bold">$1000</p>
                 </div>
               </div>
             </div>
@@ -59,25 +59,25 @@ const HeroTwo = () => {
               />
             </div>
           </div>
-          <div className="flex relative w-full bg-gray-100">
+          <div className="flex relative w-full bg-lime-100">
             <div className="w-1/2 h-[187px] flex flex-col  justify-around">
               <div className="flex flex-col">
                 <h2 className="text-base font-bold pl-5">
-                  Mi Smart Compact Projector
+                 Samsung S23 Ultra
                 </h2>
               </div>
               <div className="flex flex-col pl-5">
                 <p className="text-gray-500">Weekend Discount</p>
                 <div className="flex gap-5">
-                  <p className="text-orange-400 font-bold">$100</p>
-                  <p className="line-through font-bold">$100</p>
+                  <p className="text-orange-400 font-bold">$950</p>
+                  <p className="line-through font-bold">$999</p>
                 </div>
               </div>
             </div>
             <div className="w-1/2 flex items-center justify-center ">
               <img
                 className=" mix-blend-multiply object-cover w-full "
-                src="https://gmedia.playstation.com/is/image/SIEPDC/DualSense-Edge-image-block-01-en-24aug22?$1600px$"
+                src="https://image-us.samsung.com/us/smartphones/galaxy-s23/images/localization/galaxy-s23-highlights-color-back-green.jpg"
               />
             </div>
           </div>

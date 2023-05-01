@@ -6,11 +6,11 @@ const Header = () => {
   return (
     <div className="flex items-center justify-between py-4">
       <div>
-        <h1 className="text-2xl font-bold text-gray-800">E.Shop</h1>
+        <h1 className="text-2xl font-bold text-gray-800 font-mono">Ele.Store</h1>
       </div>
       <div className="flex flex-row items-center justify-center w-fit mx-36 ">
         <input
-          className="w-[400px] p-2 rounded-l-md border border-e"
+          className="w-[400px] p-2 rounded-l-md border border-e outline-1 outline-gray-300"
           type="text"
           placeholder="Search for products..."
         />
@@ -27,7 +27,7 @@ const Header = () => {
             <h2 className="font-bold text-sm">Account</h2>
           </div>
         </div>
-        <div className="flex items-center justify-center gap-1">
+        <div className="flex items-center justify-center gap-1 cursor-pointer">
           <div className="relative">
             <AiOutlineShoppingCart size={34} color="gray" />
             <div className="absolute  flex top-0 right-[-3px] w-[18px] h-[18px] items-center justify-center bg-orange-500 rounded-full">

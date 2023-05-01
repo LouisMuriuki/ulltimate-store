@@ -10,7 +10,7 @@ const HomeHero = () => {
               <p className="text-orange-400 w-min">test</p>
             </div>
             <h2 className="text-2xl font-bold">
-              Xbox Elitw Wireless Controller Series 2
+              Sony Play Station 5
             </h2>
             <p>
               lorem ipsum dolor sit amet consectetur adipisicing elit sed do
@@ -36,14 +36,14 @@ const HomeHero = () => {
             <div className="w-1/2 h-[187px] flex flex-col items-center justify-around">
               <div className="flex flex-col">
                 <h2 className="text-base font-bold pl-5">
-                  Mi Smart Compact Projector
+                  JBL Music Speakers
                 </h2>
               </div>
               <div className="flex flex-col">
                 <p className="text-gray-500">Weekend Discount</p>
                 <div className="flex items-center gap-5">
-                  <p className="text-orange-400 font-bold">$100</p>
-                  <p className="line-through font-bold">$100</p>
+                  <p className="text-orange-400 font-bold">$350</p>
+                  <p className="line-through font-bold">$450</p>
                 </div>
               </div>
             </div>
@@ -58,14 +58,14 @@ const HomeHero = () => {
             <div className="w-1/2 h-[187px] flex flex-col items-center justify-around">
               <div className="flex flex-col">
                 <h2 className="text-base font-bold pl-5">
-                  Mi Smart Compact Projector
+                  Sony Playstation 5 Controller
                 </h2>
               </div>
               <div className="flex flex-col">
                 <p className="text-gray-500">Weekend Discount</p>
                 <div className="flex items-center gap-5">
-                  <p className="text-orange-400 font-bold">$100</p>
-                  <p className="line-through font-bold">$100</p>
+                  <p className="text-orange-400 font-bold">$50</p>
+                  <p className="line-through font-bold">$80</p>
                 </div>
               </div>
             </div>
