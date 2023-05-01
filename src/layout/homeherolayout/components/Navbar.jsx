@@ -5,7 +5,7 @@ const Navbar = ({ Pages }) => {
   return (
     <div className="flex justify-end w-full border-t border-slate-200">
       {Pages.map((page, index) => (
-        <div key={index} className="flex flex-col">
+        <div key={index} className=" group flex flex-col">
           <span className="mr-4 mt-2">
             <Link
               to={page.link}
@@ -14,7 +14,7 @@ const Navbar = ({ Pages }) => {
               {page}
             </Link>
           </span>
-          <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span>
+          <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600 mr-8"></span>
         </div>
       ))}
     </div>

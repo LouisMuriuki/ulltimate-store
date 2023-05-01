@@ -9,7 +9,7 @@ const HomeHero = () => {
             <div className="">
               <p className="text-orange-400 w-min">test</p>
             </div>
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-2xl font-bold cursor cursor-pointer">
               Sony Play Station 5
             </h2>
             <p>
@@ -35,7 +35,7 @@ const HomeHero = () => {
           <div className="flex relative w-full bg-blue-200">
             <div className="w-1/2 h-[187px] flex flex-col items-center justify-around">
               <div className="flex flex-col">
-                <h2 className="text-base font-bold pl-5">
+                <h2 className="text-base font-bold pl-5 cursor-pointer">
                   JBL Music Speakers
                 </h2>
               </div>
@@ -57,7 +57,7 @@ const HomeHero = () => {
           <div className="flex relative w-full bg-gray-100">
             <div className="w-1/2 h-[187px] flex flex-col items-center justify-around">
               <div className="flex flex-col">
-                <h2 className="text-base font-bold pl-5">
+                <h2 className="text-base font-bold pl-5 cursor-pointer">
                   Sony Playstation 5 Controller
                 </h2>
               </div>

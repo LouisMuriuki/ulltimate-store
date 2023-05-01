@@ -15,7 +15,7 @@ const HeroTwo = () => {
             <div className="bg-orange-50 rounded-full w-min">
               <p className="text-orange-400 w-min px-2">test</p>
             </div>
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-2xl font-bold cursor-pointer">
             Xbox Elite
             </h2>
             <div className="flex items-center gap-5">
@@ -40,7 +40,7 @@ const HeroTwo = () => {
           <div className="flex relative w-full bg-gray-100">
             <div className="w-1/2 h-[187px] flex flex-col justify-around">
               <div className="flex flex-col">
-                <h2 className="text-base font-bold pl-5">
+                <h2 className="text-base font-bold pl-5 cursor-pointer">
                 Xbox Elite Wireless Controller Series 2
                 </h2>
               </div>
@@ -62,7 +62,7 @@ const HeroTwo = () => {
           <div className="flex relative w-full bg-lime-100">
             <div className="w-1/2 h-[187px] flex flex-col  justify-around">
               <div className="flex flex-col">
-                <h2 className="text-base font-bold pl-5">
+                <h2 className="text-base font-bold pl-5 cursor-pointer">
                  Samsung S23 Ultra
                 </h2>
               </div>
